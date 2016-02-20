@@ -20,6 +20,15 @@
     UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width * 0.2, self.view.frame.size.height) style:UITableViewStylePlain];
     tableView.backgroundColor = [UIColor blueColor];
     [self.view addSubview:tableView];
+    
+    [self test1];
+    
+}
+
+- (void)test1
+{
+    NSLog(@"自己修改的");
+    
 }
 
 - (void)didReceiveMemoryWarning {
