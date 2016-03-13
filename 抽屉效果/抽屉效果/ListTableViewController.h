@@ -10,4 +10,8 @@
 
 @interface ListTableViewController : UITableViewController
 
+@property (nonatomic, copy) NSString * name; // test
+
+
+
 @end
