@@ -26,6 +26,10 @@
     NSLog(@"刘永杰傻逼啊啊啊啊啊啊");
     NSLog(@"于滢爱💗刘永杰");
     
+    UIView *backView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    [self.view addSubview:backView];
+    NSLog(@"于滢怎么就那么爱刘永杰呢？？唉");
+    
     
     
     
