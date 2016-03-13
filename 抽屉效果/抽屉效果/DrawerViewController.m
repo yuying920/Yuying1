@@ -23,6 +23,8 @@
     
     [self test1];
     
+    NSLog(@"再次尝试不修改同一个文件");
+    
 }
 
 - (void)test1
