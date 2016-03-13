@@ -30,6 +30,10 @@
     button.backgroundColor = [UIColor blueColor];
     [button setTitle:@"button" forState:UIControlStateNormal];
     [button addTarget:self action:@selector(buttonAciton:) forControlEvents:UIControlEventTouchUpInside];
+    UIView *backView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    [self.view addSubview:backView];
+    NSLog(@"于滢怎么就那么爱刘永杰呢？？唉");
+    
     
     
     
