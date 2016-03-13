@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		22902F6E1C957AFF00B2AA45 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22902F6D1C957AFF00B2AA45 /* ListTableViewController.m */; };
+		22902F731C958AE600B2AA45 /* NameTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22902F711C958AE600B2AA45 /* NameTableViewController.m */; };
+		22902F741C958AE600B2AA45 /* NameTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22902F721C958AE600B2AA45 /* NameTableViewController.xib */; };
 		D63D2DC51C732A4800E5BB04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D63D2DC41C732A4800E5BB04 /* main.m */; };
 		D63D2DC81C732A4800E5BB04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D63D2DC71C732A4800E5BB04 /* AppDelegate.m */; };
 		D63D2DCB1C732A4800E5BB04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D63D2DCA1C732A4800E5BB04 /* ViewController.m */; };
@@ -20,6 +22,9 @@
 /* Begin PBXFileReference section */
 		22902F6C1C957AFF00B2AA45 /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
 		22902F6D1C957AFF00B2AA45 /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
+		22902F701C958AE600B2AA45 /* NameTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NameTableViewController.h; sourceTree = "<group>"; };
+		22902F711C958AE600B2AA45 /* NameTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NameTableViewController.m; sourceTree = "<group>"; };
+		22902F721C958AE600B2AA45 /* NameTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NameTableViewController.xib; sourceTree = "<group>"; };
 		D63D2DC01C732A4800E5BB04 /* 抽屉效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "抽屉效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D63D2DC41C732A4800E5BB04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D63D2DC61C732A4800E5BB04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +77,9 @@
 				D63D2DDE1C732A6700E5BB04 /* DrawerViewController.m */,
 				22902F6C1C957AFF00B2AA45 /* ListTableViewController.h */,
 				22902F6D1C957AFF00B2AA45 /* ListTableViewController.m */,
+				22902F701C958AE600B2AA45 /* NameTableViewController.h */,
+				22902F711C958AE600B2AA45 /* NameTableViewController.m */,
+				22902F721C958AE600B2AA45 /* NameTableViewController.xib */,
 				D63D2DCC1C732A4800E5BB04 /* Main.storyboard */,
 				D63D2DCF1C732A4800E5BB04 /* Assets.xcassets */,
 				D63D2DD11C732A4800E5BB04 /* LaunchScreen.storyboard */,
@@ -147,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22902F741C958AE600B2AA45 /* NameTableViewController.xib in Resources */,
 				D63D2DD31C732A4800E5BB04 /* LaunchScreen.storyboard in Resources */,
 				D63D2DD01C732A4800E5BB04 /* Assets.xcassets in Resources */,
 				D63D2DCE1C732A4800E5BB04 /* Main.storyboard in Resources */,
@@ -164,6 +173,7 @@
 				D63D2DC81C732A4800E5BB04 /* AppDelegate.m in Sources */,
 				D63D2DC51C732A4800E5BB04 /* main.m in Sources */,
 				D63D2DDF1C732A6700E5BB04 /* DrawerViewController.m in Sources */,
+				22902F731C958AE600B2AA45 /* NameTableViewController.m in Sources */,
 				22902F6E1C957AFF00B2AA45 /* ListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
