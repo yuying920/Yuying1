@@ -24,6 +24,11 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
     NSLog(@"刘永杰傻逼啊啊啊啊啊啊");
+    NSLog(@"于滢爱💗刘永杰");
+    
+    
+    
+    
     
     
 }
