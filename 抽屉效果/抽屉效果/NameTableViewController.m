@@ -26,12 +26,23 @@
     NSLog(@"刘永杰傻逼啊啊啊啊啊啊");
     NSLog(@"于滢爱💗刘永杰");
     
+    UIButton * button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.backgroundColor = [UIColor blueColor];
+    [button setTitle:@"button" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(buttonAciton:) forControlEvents:UIControlEventTouchUpInside];
     
     
     
     
     
 }
+
+- (void)buttonAciton:(UIButton *)sender
+{
+    
+    NSLog(@"button");
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -49,6 +60,14 @@
 #warning Incomplete implementation, return the number of rows
     return 20;
 }
+
+
+
+-(void)dealloc
+{
+    NSLog(@"dealloc 销毁");
+}
+
 
 /*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
