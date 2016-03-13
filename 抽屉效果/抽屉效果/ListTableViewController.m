@@ -19,6 +19,8 @@
     
     NSLog(@"这是我修改的");
     
+    NSLog(@"这是我二次修改的");
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -27,6 +29,7 @@
 }
 
 - (void)didReceiveMemoryWarning {
+    
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
